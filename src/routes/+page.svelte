@@ -13,6 +13,7 @@
   import SpeedSection from '$lib/components/SpeedSection.svelte';
   import Testimonials from '$lib/components/Testimonials.svelte';
   import TimeSavings from '$lib/components/TimeSavings.svelte';
+  import Integrations from '$lib/components/Integrations.svelte';
   import Security from '$lib/components/Security.svelte';
   import CTA from '$lib/components/CTA.svelte';
   import Footer from '$lib/components/Footer.svelte';
@@ -35,6 +36,7 @@
     <SpeedSection />
     <Testimonials />
     <TimeSavings />
+    <Integrations />
     <Security />
     <CTA />
   </main>

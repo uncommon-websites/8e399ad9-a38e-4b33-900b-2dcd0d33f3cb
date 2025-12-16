@@ -1,153 +1,130 @@
-<script>
+<script lang="ts">
   // Hero component
 </script>
 
-<section class="pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden">
-  <div class="container-custom flex flex-col items-center text-center">
-    
-    <!-- Badge -->
-    <a href="#" class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-gray-50 border border-gray-200 text-gray-700 text-xs font-medium mb-8 hover:bg-gray-100 transition-colors">
-      Built for HVAC shops with 5-15 techs
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-    </a>
-
-    <!-- Headline -->
-    <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-6 max-w-4xl mx-auto leading-[1.1]">
-      Recover lost HVAC revenue with <span class="text-gray-900">AI</span>
-    </h1>
-
-    <!-- Subheadline -->
-    <p class="text-lg md:text-xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
-      AI scheduling, automated follow-ups, and instant mobile invoicing. Setup in 10 minutes. No complexity.
-    </p>
-
-    <!-- Buttons -->
-    <div class="flex flex-col sm:flex-row items-center gap-4 mb-20">
-      <a href="#" class="px-6 py-3 text-sm font-bold bg-gray-900 text-white rounded hover:bg-gray-800 transition-colors uppercase tracking-wide shadow-sm">
-        Get Started Free
-      </a>
-      <a href="#" class="px-6 py-3 text-sm font-bold border border-gray-200 text-gray-700 rounded hover:border-gray-400 transition-colors uppercase tracking-wide bg-white">
-        Watch 10-Min Demo
-      </a>
-    </div>
-
-    <!-- Hero Image / UI Mockup -->
-    <div class="relative w-full max-w-5xl mx-auto rounded-xl shadow-2xl border border-gray-200 bg-white overflow-hidden perspective-1000">
-      <!-- Browser Chrome -->
-      <div class="bg-gray-50 border-b border-gray-200 px-4 py-3 flex items-center gap-2">
-        <div class="flex gap-1.5">
-          <div class="w-3 h-3 rounded-full bg-red-400"></div>
-          <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
-          <div class="w-3 h-3 rounded-full bg-green-400"></div>
-        </div>
-        <div class="flex-1 text-center">
-          <div class="inline-flex items-center justify-center px-3 py-0.5 rounded bg-white border border-gray-200 text-[10px] text-gray-400 font-mono shadow-sm">
-            wrench.app/dashboard
-          </div>
-        </div>
+<section class="pt-24 pb-12 md:pt-32 md:pb-16">
+  <div class="container-custom">
+    <div class="max-w-3xl mx-auto text-center mb-16">
+      
+      <!-- Social Proof Badge -->
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gray-100 text-gray-700 text-xs font-medium mb-6">
+        <span class="flex items-center gap-1">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Trusted by 200+ HVAC shops
+        </span>
       </div>
 
-      <!-- App Interface Mockup -->
-      <div class="flex h-[500px] md:h-[600px] text-left bg-white">
-        <!-- Sidebar -->
-        <div class="w-16 md:w-64 border-r border-gray-100 bg-gray-50/50 p-4 hidden md:flex flex-col gap-4">
-            <div class="flex items-center gap-2 mb-4">
-                <div class="w-6 h-6 rounded bg-gray-200"></div>
-                <div class="h-3 w-20 bg-gray-200 rounded"></div>
-            </div>
-            {#each [1, 2, 3, 4, 5] as i}
-            <div class="flex items-center gap-3 p-2 rounded hover:bg-gray-100">
-                <div class="w-4 h-4 rounded bg-gray-200"></div>
-                <div class="h-2 w-24 bg-gray-100 rounded"></div>
-            </div>
-            {/each}
+      <!-- Headline -->
+      <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-5 leading-tight">
+        Stop losing revenue to missed calls and forgotten follow-ups
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
+        Wrench handles scheduling, follow-ups, and invoicing automatically. Built specifically for HVAC shops with 5-15 techs. Setup takes 10 minutes.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-4">
+        <a href="#" class="w-full sm:w-auto px-6 py-3 text-base font-semibold bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-all">
+          Start free trial
+        </a>
+        <a href="#" class="w-full sm:w-auto px-6 py-3 text-base font-semibold text-gray-700 hover:text-gray-900 transition-colors flex items-center justify-center gap-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Watch demo
+        </a>
+      </div>
+      
+      <p class="text-sm text-gray-500">No credit card required</p>
+    </div>
+
+    <!-- Product Preview -->
+    <div class="relative w-full max-w-6xl mx-auto">
+      <!-- Main Dashboard Preview -->
+      <div class="relative rounded-lg border border-gray-200 bg-white overflow-hidden">
+        <!-- Simple Browser Bar -->
+        <div class="bg-gray-50 border-b border-gray-200 px-4 py-2.5 flex items-center gap-3">
+          <div class="flex gap-1.5">
+            <div class="w-2.5 h-2.5 rounded-full bg-gray-300"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-gray-300"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-gray-300"></div>
+          </div>
+          <div class="text-xs text-gray-500 font-mono">app.wrench.com</div>
         </div>
 
-        <!-- Main Content -->
-        <div class="flex-1 flex flex-col">
-            <!-- Header -->
-            <div class="h-14 border-b border-gray-100 flex items-center px-6 justify-between">
-                <div class="flex items-center gap-3">
-                    <div class="text-sm font-bold text-gray-900">Today's Schedule</div>
-                    <div class="text-xs text-gray-500">8 jobs • 5 techs</div>
-                </div>
-                <div class="flex items-center gap-2">
-                    <div class="px-2 py-1 bg-green-50 text-green-700 text-xs rounded font-medium">AI Active</div>
-                </div>
+        <!-- Dashboard Content -->
+        <div class="bg-white p-6 md:p-8">
+          <!-- Header -->
+          <div class="flex items-center justify-between mb-6 pb-4 border-b border-gray-100">
+            <div>
+              <h2 class="text-xl font-semibold text-gray-900 mb-1">Today's schedule</h2>
+              <p class="text-sm text-gray-500">8 jobs scheduled • 5 technicians active</p>
             </div>
-            <!-- Dashboard Area -->
-            <div class="flex-1 p-6 bg-white relative">
-                <!-- Job Cards -->
-                <div class="space-y-3 mb-6">
-                    <div class="flex items-center justify-between p-3 bg-gray-50 rounded border border-gray-200">
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 rounded bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-xs">MJ</div>
-                            <div>
-                                <div class="text-sm font-bold text-gray-900">Mike Johnson - AC Repair</div>
-                                <div class="text-xs text-gray-500">123 Oak St • 2:00 PM</div>
-                            </div>
-                        </div>
-                        <div class="px-2 py-1 bg-green-100 text-green-700 text-xs rounded font-medium">En Route</div>
-                    </div>
-                    <div class="flex items-center justify-between p-3 bg-gray-50 rounded border border-gray-200">
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 rounded bg-orange-100 flex items-center justify-center text-orange-600 font-bold text-xs">SD</div>
-                            <div>
-                                <div class="text-sm font-bold text-gray-900">Sarah Davis - Maintenance</div>
-                                <div class="text-xs text-gray-500">456 Maple Ave • 3:30 PM</div>
-                            </div>
-                        </div>
-                        <div class="px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded font-medium">Scheduled</div>
-                    </div>
-                </div>
+            <div class="flex items-center gap-2 px-3 py-1.5 bg-green-50 text-green-700 text-sm font-medium rounded-md border border-green-100">
+              <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+              AI receptionist active
+            </div>
+          </div>
 
-                <!-- AI Scheduling Assistant -->
-                <div class="bg-[#1C1C1C] rounded-lg p-4 text-gray-300 shadow-xl border border-gray-800 max-w-2xl mx-auto mt-8">
-                    <div class="flex items-center justify-between mb-4 border-b border-gray-700 pb-3">
-                        <div class="flex items-center gap-2 text-xs font-medium text-gray-400">
-                            <div class="w-4 h-4 rounded-full bg-gray-200 flex items-center justify-center text-black font-bold">AI</div>
-                            AI Receptionist
-                        </div>
-                        <div class="text-[10px] text-green-400">Active</div>
-                    </div>
-                    <div class="space-y-2 mb-4 text-sm">
-                        <div class="text-white">📞 New call: Mrs. Anderson needs AC service</div>
-                        <div class="text-gray-400">✓ Checked availability</div>
-                        <div class="text-gray-400">✓ Scheduled for tomorrow 10 AM with Tech #3</div>
-                        <div class="text-gray-400">✓ Sent confirmation SMS</div>
-                    </div>
-                    <div class="text-xs text-green-400">Revenue recovered: $285</div>
+          <!-- Job List -->
+          <div class="space-y-3 mb-8">
+            <div class="flex items-start gap-4 p-4 bg-gray-50 rounded-lg border border-gray-100">
+              <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-semibold text-sm flex-shrink-0">
+                MJ
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-start justify-between gap-4 mb-1">
+                  <div>
+                    <p class="font-medium text-gray-900">Mike Johnson</p>
+                    <p class="text-sm text-gray-600">AC repair • 2:00 PM</p>
+                  </div>
+                  <span class="px-2.5 py-1 bg-green-100 text-green-700 text-xs font-medium rounded whitespace-nowrap">En route</span>
                 </div>
+                <p class="text-sm text-gray-500">123 Oak Street</p>
+              </div>
             </div>
-            
-            <!-- Reply Box -->
-            <div class="h-16 border-t border-gray-100 px-6 flex items-center gap-4">
-                 <div class="flex-1 h-10 bg-gray-50 rounded border border-gray-200"></div>
-                 <div class="w-20 h-10 bg-plain-green rounded opacity-20"></div>
-            </div>
-        </div>
 
-        <!-- Right Sidebar -->
-        <div class="w-72 border-l border-gray-100 bg-white p-4 hidden lg:block">
-            <div class="space-y-6">
-                <div>
-                    <div class="h-3 w-20 bg-gray-200 rounded mb-3"></div>
-                    <div class="space-y-2">
-                        <div class="flex justify-between"><div class="h-2 w-16 bg-gray-100 rounded"></div><div class="h-2 w-12 bg-gray-100 rounded"></div></div>
-                        <div class="flex justify-between"><div class="h-2 w-16 bg-gray-100 rounded"></div><div class="h-2 w-12 bg-gray-100 rounded"></div></div>
-                        <div class="flex justify-between"><div class="h-2 w-16 bg-gray-100 rounded"></div><div class="h-2 w-12 bg-gray-100 rounded"></div></div>
-                    </div>
+            <div class="flex items-start gap-4 p-4 bg-gray-50 rounded-lg border border-gray-100">
+              <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-purple-700 font-semibold text-sm flex-shrink-0">
+                SD
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-start justify-between gap-4 mb-1">
+                  <div>
+                    <p class="font-medium text-gray-900">Sarah Davis</p>
+                    <p class="text-sm text-gray-600">Maintenance check • 3:30 PM</p>
+                  </div>
+                  <span class="px-2.5 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded whitespace-nowrap">Scheduled</span>
                 </div>
-                <hr class="border-gray-100"/>
-                <div>
-                    <div class="h-3 w-20 bg-gray-200 rounded mb-3"></div>
-                    <div class="flex gap-2 flex-wrap">
-                        <div class="h-6 w-16 bg-gray-50 border border-gray-200 rounded-full"></div>
-                        <div class="h-6 w-20 bg-gray-50 border border-gray-200 rounded-full"></div>
-                        <div class="h-6 w-12 bg-gray-50 border border-gray-200 rounded-full"></div>
-                    </div>
-                </div>
+                <p class="text-sm text-gray-500">456 Maple Avenue</p>
+              </div>
             </div>
+          </div>
+
+          <!-- AI Activity Card -->
+          <div class="bg-gray-900 rounded-lg p-5 text-white">
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-2">
+                <div class="w-6 h-6 rounded-full bg-white flex items-center justify-center">
+                  <span class="text-xs font-bold text-gray-900">AI</span>
+                </div>
+                <span class="text-sm font-medium">AI receptionist</span>
+              </div>
+              <span class="text-xs text-green-400">Just now</span>
+            </div>
+            <div class="space-y-2 text-sm">
+              <p class="text-white">New call from Mrs. Anderson requesting AC service</p>
+              <div class="space-y-1 text-gray-400 pl-4 border-l-2 border-gray-700">
+                <p>✓ Checked technician availability</p>
+                <p>✓ Scheduled appointment for tomorrow at 10:00 AM</p>
+                <p>✓ Assigned to Tech #3 (closest to location)</p>
+                <p>✓ Sent confirmation text to customer</p>
+              </div>
+              <div class="pt-3 mt-3 border-t border-gray-800">
+                <p class="text-green-400 font-medium">Revenue captured: $285</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
