@@ -111,7 +111,7 @@
                         <div class="text-[10px] text-green-400">Active</div>
                     </div>
                     <div class="space-y-2 mb-4 text-sm">
-                        <div class="text-white">📞 New call: Mrs. Thompson needs AC service</div>
+                        <div class="text-white">📞 New call: Mrs. Anderson needs AC service</div>
                         <div class="text-gray-400">✓ Checked availability</div>
                         <div class="text-gray-400">✓ Scheduled for tomorrow 10 AM with Tech #3</div>
                         <div class="text-gray-400">✓ Sent confirmation SMS</div>
