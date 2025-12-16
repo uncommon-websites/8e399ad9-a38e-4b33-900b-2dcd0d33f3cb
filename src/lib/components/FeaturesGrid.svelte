@@ -1,62 +1,60 @@
-<section class="py-12 bg-plain-dark">
+<section class="py-12 bg-wrench-dark">
   <div class="container-custom">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       
       <!-- Card 1 -->
-      <div class="bg-plain-dark-secondary rounded-2xl p-8 border border-gray-800 hover:border-gray-700 transition-colors group">
+      <div class="bg-wrench-dark-secondary rounded-2xl p-8 border border-gray-800 hover:border-gray-700 transition-colors group">
         <div class="h-40 mb-8 flex items-center justify-center relative">
-            <!-- Icons Grid -->
-            <div class="grid grid-cols-4 gap-3 opacity-60 group-hover:opacity-100 transition-opacity">
-                {#each Array(8) as _}
-                <div class="w-8 h-8 rounded bg-gray-800 border border-gray-700"></div>
-                {/each}
+            <!-- Calendar Icon -->
+            <div class="text-center">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-600 mx-auto">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="16" y1="2" x2="16" y2="6"/>
+                    <line x1="8" y1="2" x2="8" y2="6"/>
+                    <line x1="3" y1="10" x2="21" y2="10"/>
+                    <circle cx="8" cy="14" r="1" fill="currentColor"/>
+                    <circle cx="12" cy="14" r="1" fill="currentColor"/>
+                    <circle cx="16" cy="14" r="1" fill="currentColor"/>
+                </svg>
             </div>
         </div>
-        <h3 class="text-xl font-bold text-white mb-3">Scale every channel</h3>
+        <h3 class="text-xl font-bold text-white mb-3">AI Scheduling</h3>
         <p class="text-gray-400 text-sm leading-relaxed">
-          Connect and scale Slack, Microsoft Teams, Discord, portal, email, chat, forms and more with the fastest support inbox ever built.
+          AI receptionist answers calls, checks tech availability, and books appointments automatically. Never miss a job again.
         </p>
       </div>
 
       <!-- Card 2 -->
-      <div class="bg-plain-dark-secondary rounded-2xl p-8 border border-gray-800 hover:border-gray-700 transition-colors group">
-        <div class="h-40 mb-8 flex items-end justify-center gap-1 pb-4">
-            <!-- Bar Chart -->
-            <div class="w-3 bg-green-900/40 h-12 rounded-t"></div>
-            <div class="w-3 bg-green-800/60 h-16 rounded-t"></div>
-            <div class="w-3 bg-green-700/80 h-10 rounded-t"></div>
-            <div class="w-3 bg-green-600 h-24 rounded-t"></div>
-            <div class="w-3 bg-green-500 h-20 rounded-t"></div>
-            <div class="w-3 bg-green-400 h-28 rounded-t shadow-[0_0_15px_rgba(74,222,128,0.5)]"></div>
-            <div class="w-3 bg-green-500 h-14 rounded-t"></div>
-            <div class="w-3 bg-green-600 h-18 rounded-t"></div>
-            
-            <!-- Tooltip-like badge -->
-            <div class="absolute top-10 bg-white text-black text-[10px] font-bold px-2 py-1 rounded shadow-lg transform translate-x-4">
-                Negative shift
+      <div class="bg-wrench-dark-secondary rounded-2xl p-8 border border-gray-800 hover:border-gray-700 transition-colors group">
+        <div class="h-40 mb-8 flex items-center justify-center">
+            <!-- Phone/Message Icon -->
+            <div class="text-center space-y-2">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-600 mx-auto">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    <path d="M8 10h8"/>
+                    <path d="M8 14h4"/>
+                </svg>
             </div>
         </div>
-        <h3 class="text-xl font-bold text-white mb-3">Understand every customer</h3>
+        <h3 class="text-xl font-bold text-white mb-3">Automated Follow-ups</h3>
         <p class="text-gray-400 text-sm leading-relaxed">
-          Drive product and revenue. Automatically surface product themes, customer trends, and churn signals.
+          Automatic reminders for maintenance, quote follow-ups, and customer check-ins. Recover revenue from jobs that would slip through the cracks.
         </p>
       </div>
 
       <!-- Card 3 -->
-      <div class="bg-plain-dark-secondary rounded-2xl p-8 border border-gray-800 hover:border-gray-700 transition-colors group">
+      <div class="bg-wrench-dark-secondary rounded-2xl p-8 border border-gray-800 hover:border-gray-700 transition-colors group">
         <div class="h-40 mb-8 flex flex-col items-center justify-center gap-3">
-             <div class="flex gap-2">
-                 <div class="px-3 py-1 bg-green-600 text-white text-xs rounded font-medium">Summarize thread</div>
-                 <div class="px-3 py-1 bg-green-600/20 text-green-400 border border-green-600/30 text-xs rounded font-medium">Send docs</div>
-             </div>
-             <div class="flex gap-2">
-                 <div class="px-3 py-1 bg-green-600/20 text-green-400 border border-green-600/30 text-xs rounded font-medium">Diagnose issue</div>
-                 <div class="px-3 py-1 bg-green-600/20 text-green-400 border border-green-600/30 text-xs rounded font-medium">Draft reply</div>
+             <div class="text-center">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="text-gray-600 mx-auto">
+                    <rect x="2" y="5" width="20" height="14" rx="2"/>
+                    <line x1="2" y1="10" x2="22" y2="10"/>
+                </svg>
              </div>
         </div>
-        <h3 class="text-xl font-bold text-white mb-3">Empower every team member</h3>
+        <h3 class="text-xl font-bold text-white mb-3">Mobile Invoicing</h3>
         <p class="text-gray-400 text-sm leading-relaxed">
-          Supercharge your team with AI built for B2B. Triage queries, engage customers, and investigate technical queries with accuracy.
+          Techs send invoices from their phone the moment they finish. Get paid faster. No paperwork back at the office.
         </p>
       </div>
 
