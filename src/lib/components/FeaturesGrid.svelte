@@ -2,27 +2,27 @@
 	<div class="container-custom">
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Highest accuracy</h3>
+				<h3 class="font-medium text-sm">Autonomous execution</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Production-ready outputs built on cross-referenced facts, with minimal hallucination.
+					AI agents complete complex tasks end-to-end without constant supervision or hand-holding.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Predictable costs</h3>
+				<h3 class="font-medium text-sm">Transparent logs</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Flex compute budget based on task complexity. Pay per query, not per token.
+					Every action is logged and visible, building trust through complete execution transparency.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Evidence-based outputs</h3>
+				<h3 class="font-medium text-sm">Browser-based security</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Verifiability and provenance for every atomic output.
+					Agents run securely in your browser and sandboxes, keeping your data under your control.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Trusted</h3>
+				<h3 class="font-medium text-sm">Real work delivered</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					SOC-II Type 2 Certified, trusted by leading startups and enterprises.
+					From research to operations, get actual deliverables—not just suggestions or drafts.
 				</p>
 			</div>
 		</div>
@@ -34,22 +34,22 @@
 		<div class="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
 			<div class="md:col-span-1">
 				<p class="font-mono text-xs text-muted w-3/4">
-					Powering the best AIs using the web
+					Trusted by knowledge workers and teams
 				</p>
 			</div>
-			<div class="md:col-span-3 flex flex-wrap items-center justify-between gap-8 grayscale opacity-70 hover:opacity-100 transition-opacity">
-				<!-- Logo Placeholders -->
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-red-500 rounded-sm"></div>
-					floqer
+			<div class="md:col-span-3 flex flex-wrap items-center justify-between gap-8 opacity-70">
+				<!-- Stats instead of logos -->
+				<div class="flex flex-col gap-1">
+					<div class="text-2xl font-medium">10K+</div>
+					<div class="text-xs text-muted font-mono">Tasks completed</div>
 				</div>
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-blue-500 rounded-full"></div>
-					genpact
+				<div class="flex flex-col gap-1">
+					<div class="text-2xl font-medium">85%</div>
+					<div class="text-xs text-muted font-mono">Time saved</div>
 				</div>
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-pink-500 rounded-full border-2 border-black"></div>
-					Gumloop
+				<div class="flex flex-col gap-1">
+					<div class="text-2xl font-medium">100%</div>
+					<div class="text-xs text-muted font-mono">Transparent</div>
 				</div>
 			</div>
 		</div>

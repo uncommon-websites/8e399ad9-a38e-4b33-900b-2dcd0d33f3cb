@@ -5,11 +5,10 @@
 			<div class="lg:col-span-2">
 				<a href="/" class="text-xl font-bold tracking-tight flex items-center gap-2 mb-4">
 					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-foreground">
-						<path d="M4 4H20V20H4V4Z" stroke="currentColor" stroke-width="2"/>
-						<path d="M8 4V20" stroke="currentColor" stroke-width="2"/>
-						<path d="M16 4V20" stroke="currentColor" stroke-width="2"/>
-						<path d="M4 12H20" stroke="currentColor" stroke-width="2"/>
+						<path d="M12 2L4 7V17L12 22L20 17V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+						<path d="M12 12L4 7M12 12L20 7M12 12V22" stroke="currentColor" stroke-width="2"/>
 					</svg>
+					<span class="font-sans font-semibold">Wren</span>
 				</a>
 			</div>
 
@@ -17,20 +16,20 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Contact</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="mailto:hello@parallel.ai" class="hover:text-foreground">hello@parallel.ai</a></li>
+					<li><a href="mailto:hello@wren.ai" class="hover:text-foreground">hello@wren.ai</a></li>
 				</ul>
 			</div>
 
 			<!-- Products -->
 			<div>
-				<h4 class="font-mono text-xs uppercase text-muted mb-4">Products</h4>
+				<h4 class="font-mono text-xs uppercase text-muted mb-4">Product</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="#" class="hover:text-foreground">Search API</a></li>
-					<li><a href="#" class="hover:text-foreground">Extract API</a></li>
-					<li><a href="#" class="hover:text-foreground">Task API</a></li>
-					<li><a href="#" class="hover:text-foreground">FindAll API</a></li>
-					<li><a href="#" class="hover:text-foreground">Chat API</a></li>
-					<li><a href="#" class="hover:text-foreground">Monitor API</a></li>
+					<li><a href="#" class="hover:text-foreground">Research Agents</a></li>
+					<li><a href="#" class="hover:text-foreground">Operations Agents</a></li>
+					<li><a href="#" class="hover:text-foreground">Workspaces</a></li>
+					<li><a href="#" class="hover:text-foreground">Execution Logs</a></li>
+					<li><a href="#" class="hover:text-foreground">Pricing</a></li>
+					<li><a href="#" class="hover:text-foreground">Use Cases</a></li>
 				</ul>
 			</div>
 
@@ -38,31 +37,31 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Resources</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="#" class="hover:text-foreground">About</a></li>
-					<li><a href="#" class="hover:text-foreground">Pricing</a></li>
-					<li><a href="#" class="hover:text-foreground">Docs</a></li>
+					<li><a href="#" class="hover:text-foreground">Documentation</a></li>
+					<li><a href="#" class="hover:text-foreground">API Reference</a></li>
 					<li><a href="#" class="hover:text-foreground">Blog</a></li>
+					<li><a href="#" class="hover:text-foreground">Case Studies</a></li>
 					<li><a href="#" class="hover:text-foreground">Changelog</a></li>
-					<li><a href="#" class="hover:text-foreground">Careers</a></li>
+					<li><a href="#" class="hover:text-foreground">About</a></li>
 				</ul>
 			</div>
 
 			<!-- Info -->
 			<div>
-				<h4 class="font-mono text-xs uppercase text-muted mb-4">Info</h4>
+				<h4 class="font-mono text-xs uppercase text-muted mb-4">Legal</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted mb-8">
 					<li><a href="#" class="hover:text-foreground">Terms of Service</a></li>
-					<li><a href="#" class="hover:text-foreground">Customer Terms</a></li>
-					<li><a href="#" class="hover:text-foreground">Privacy</a></li>
-					<li><a href="#" class="hover:text-foreground">Acceptable Use</a></li>
+					<li><a href="#" class="hover:text-foreground">Privacy Policy</a></li>
+					<li><a href="#" class="hover:text-foreground">Security</a></li>
 					<li><a href="#" class="hover:text-foreground">Trust Center</a></li>
+					<li><a href="#" class="hover:text-foreground">Acceptable Use</a></li>
 				</ul>
 				
-				<!-- SOC 2 Badge -->
+				<!-- Security Badge -->
 				<div class="w-16 h-16 border-2 border-black rounded-full flex items-center justify-center relative">
 					<div class="absolute inset-0 rounded-full border border-white m-0.5"></div>
 					<div class="text-[8px] font-bold text-center leading-tight">
-						SOC 2<br>TYPE II
+						SECURE<br>BY DESIGN
 					</div>
 					<div class="absolute -bottom-1 -right-1 w-4 h-4 bg-black rounded-full flex items-center justify-center text-white text-[8px]">✓</div>
 				</div>
@@ -88,29 +87,31 @@
 				</div>
 			</div>
 			<div>
-				Parallel Web Systems Inc. 2025
+				Wren AI Inc. 2025
 			</div>
 		</div>
 	</div>
 
 	<!-- Bottom Texture Strip -->
-	<div class="mt-8 h-32 w-full bg-[#111] relative overflow-hidden flex items-end justify-center pb-4">
-		<!-- Noise Texture -->
-		<div class="absolute inset-0 opacity-20" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgo8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPg=='); background-size: 2px 2px;"></div>
+	<div class="mt-8 h-32 w-full bg-gradient-to-br from-primary-950 to-gray-900 relative overflow-hidden flex items-end justify-center pb-4">
+		<!-- Grid Texture -->
+		<div class="absolute inset-0 opacity-10" style="background-image: linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 20px 20px;"></div>
 		
-		<!-- Glitch/Code Overlay -->
-		<div class="absolute inset-0 opacity-10 font-mono text-[8px] text-white overflow-hidden leading-none whitespace-pre-wrap break-all p-2 select-none pointer-events-none">
-			{Array(2000).fill(0).map(() => Math.random() > 0.5 ? '1' : '0').join('')}
-		</div>
+		<!-- Dot Pattern -->
+		<div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(rgba(255,255,255,0.3) 1px, transparent 1px); background-size: 20px 20px;"></div>
 
 		<div class="relative z-10 flex items-center gap-4 text-[10px] font-mono text-white/50">
 			<div class="flex items-center gap-2 text-white">
-				<span class="w-2 h-2 bg-white rounded-full"></span>
-				HUMAN
+				<span class="w-2 h-2 bg-primary-400 rounded-full"></span>
+				AUTONOMOUS
 			</div>
 			<div class="flex items-center gap-2">
 				<span class="w-2 h-2 border border-white/50 rounded-full"></span>
-				MACHINE
+				TRANSPARENT
+			</div>
+			<div class="flex items-center gap-2">
+				<span class="w-2 h-2 border border-white/50 rounded-full"></span>
+				SECURE
 			</div>
 		</div>
 	</div>

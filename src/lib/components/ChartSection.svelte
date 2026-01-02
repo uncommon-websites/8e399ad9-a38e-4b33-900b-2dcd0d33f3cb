@@ -2,12 +2,12 @@
 	<div class="container-custom">
 		<div class="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
 			<div>
-				<h2 class="text-3xl font-medium mb-2">Highest accuracy at every price point</h2>
-				<p class="text-xl text-muted font-light">State of the art across several benchmarks</p>
+				<h2 class="text-3xl font-medium mb-2">Measurable productivity gains</h2>
+				<p class="text-xl text-muted font-light">Time saved on complex research and operations tasks</p>
 			</div>
 			<div class="max-w-xs text-[10px] text-muted leading-relaxed border-l border-border pl-4">
-				<strong class="text-foreground block mb-1">About this benchmark</strong>
-				This benchmark consists of 2,500 questions developed by subject matter experts across dozens of subjects (e.g. math, humanities, natural sciences). Each question has a known solution that is unambiguous and easily verifiable, but requires sophisticated web retrieval and reasoning. Results are reported on a sample of 100 questions from this benchmark. Learn more in our <a href="#" class="underline">latest blog</a>.
+				<strong class="text-foreground block mb-1">About this data</strong>
+				Based on early user feedback across research, competitive analysis, and operational tasks. Users report significant time savings when delegating complex multi-step workflows to Wren's autonomous agents. Time measurements compare manual completion vs. agent-assisted completion for equivalent quality outputs.
 			</div>
 		</div>
 
@@ -24,79 +24,62 @@
 			
 			<!-- Y Axis Label -->
 			<div class="absolute left-2 top-1/2 -translate-y-1/2 -rotate-90 text-muted origin-center whitespace-nowrap">
-				ACCURACY (%)
+				TIME SAVED (%)
 			</div>
 
 			<!-- X Axis Label -->
 			<div class="absolute bottom-2 left-1/2 -translate-x-1/2 text-muted">
-				COST (CPM)
+				TASK COMPLEXITY
 			</div>
 
 			<!-- Top Left Legend -->
 			<div class="absolute top-4 left-4 flex gap-4 text-[10px] text-muted">
-				<span class="bg-gray-200 px-1 rounded text-foreground">MMLU-Search</span>
-				<span>BrowseComp Search</span>
-				<span>BrowseComp</span>
-				<span>DeepResearch Bench</span>
-				<span>WISER-Atomic</span>
+				<span class="bg-gray-200 px-1 rounded text-foreground">User reported data</span>
 			</div>
 
-			<!-- Data Points -->
+			<!-- Bar Chart Visualization -->
 			
-			<!-- Parallel (The Winner) -->
-			<div class="absolute top-[15%] left-[15%] flex flex-col items-center group cursor-pointer z-10">
-				<div class="flex items-center gap-2 mb-1">
-					<span class="text-accent font-bold">PARALLEL</span>
+			<!-- Research Tasks -->
+			<div class="absolute bottom-[8%] left-[15%] flex flex-col items-center group cursor-pointer z-10">
+				<div class="w-16 bg-accent h-[280px] rounded-t"></div>
+				<div class="mt-2 text-[10px] text-center">
+					<div class="font-bold text-accent">85%</div>
+					<div class="text-muted">Research</div>
 				</div>
-				<div class="w-3 h-3 bg-accent rounded-full shadow-[0_0_0_4px_rgba(255,68,0,0.2)]"></div>
-				<div class="mt-1 text-[10px] text-accent">67% / $2CPM</div>
 			</div>
 
-			<!-- OpenAI GPT-4 -->
-			<div class="absolute top-[25%] left-[45%] flex flex-col items-center group cursor-pointer">
-				<div class="flex items-center gap-2 mb-1 opacity-0 group-hover:opacity-100 transition-opacity">
-					<span class="font-bold">OPENAI GPT-4</span>
+			<!-- Competitive Analysis -->
+			<div class="absolute bottom-[8%] left-[35%] flex flex-col items-center group cursor-pointer">
+				<div class="w-16 bg-accent h-[300px] rounded-t"></div>
+				<div class="mt-2 text-[10px] text-center">
+					<div class="font-bold text-accent">90%</div>
+					<div class="text-muted">Analysis</div>
 				</div>
-				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">65% / $15CPM</div>
 			</div>
 
-			<!-- Perplexity -->
-			<div class="absolute top-[55%] left-[35%] flex flex-col items-center group cursor-pointer">
-				<div class="flex items-center gap-2 mb-1 opacity-100">
-					<span class="font-bold text-[10px]">PERPLEXITY</span>
+			<!-- Data Collection -->
+			<div class="absolute bottom-[8%] left-[55%] flex flex-col items-center group cursor-pointer">
+				<div class="w-16 bg-accent h-[260px] rounded-t"></div>
+				<div class="mt-2 text-[10px] text-center">
+					<div class="font-bold text-accent">80%</div>
+					<div class="text-muted">Data Ops</div>
 				</div>
-				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">30% / $10CPM</div>
 			</div>
 
-			<!-- ERA -->
-			<div class="absolute top-[65%] left-[40%] flex flex-col items-center group cursor-pointer">
-				<div class="flex items-center gap-2 mb-1 opacity-100">
-					<span class="font-bold text-[10px]">ERA</span>
+			<!-- Report Generation -->
+			<div class="absolute bottom-[8%] right-[15%] flex flex-col items-center group cursor-pointer">
+				<div class="w-16 bg-accent h-[240px] rounded-t"></div>
+				<div class="mt-2 text-[10px] text-center">
+					<div class="font-bold text-accent">75%</div>
+					<div class="text-muted">Reports</div>
 				</div>
-				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">24% / $15CPM</div>
-			</div>
-
-			<!-- TAVILY -->
-			<div class="absolute top-[80%] right-[20%] flex flex-col items-center group cursor-pointer">
-				<div class="flex items-center gap-2 mb-1 opacity-100">
-					<span class="font-bold text-[10px]">TAVILY</span>
-				</div>
-				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">21% / $30CPM</div>
 			</div>
 
 			<!-- Bottom Right Legend -->
 			<div class="absolute bottom-4 right-4 flex items-center gap-4 text-[10px]">
 				<div class="flex items-center gap-1">
 					<div class="w-2 h-2 bg-accent rounded-full"></div>
-					<span class="text-accent font-bold">PARALLEL</span>
-				</div>
-				<div class="flex items-center gap-1">
-					<div class="w-2 h-2 bg-black rounded-full"></div>
-					<span class="text-muted">OTHERS</span>
+					<span class="text-accent font-bold">WITH WREN</span>
 				</div>
 			</div>
 		</div>

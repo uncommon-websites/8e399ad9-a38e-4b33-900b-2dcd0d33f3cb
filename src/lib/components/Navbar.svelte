@@ -7,8 +7,8 @@
 {#if showBanner}
 	<div class="bg-primary-50 border-b border-border py-2 px-4 text-xs font-mono flex justify-center items-center relative">
 		<div class="flex items-center gap-2">
-			<span class="text-muted">We raised $100M to build the web's second user.</span>
-			<a href="#" class="underline decoration-muted hover:text-accent transition-colors">Read more.</a>
+			<span class="text-muted">Autonomous AI agents that deliver real work, end-to-end.</span>
+			<a href="#" class="underline decoration-muted hover:text-accent transition-colors">Get started.</a>
 		</div>
 		<button 
 			class="absolute right-4 text-muted hover:text-foreground"
@@ -27,27 +27,25 @@
 		<!-- Logo -->
 		<a href="/" class="text-xl font-bold tracking-tight flex items-center gap-2">
 			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-foreground">
-				<path d="M4 4H20V20H4V4Z" stroke="currentColor" stroke-width="2"/>
-				<path d="M8 4V20" stroke="currentColor" stroke-width="2"/>
-				<path d="M16 4V20" stroke="currentColor" stroke-width="2"/>
-				<path d="M4 12H20" stroke="currentColor" stroke-width="2"/>
+				<path d="M12 2L4 7V17L12 22L20 17V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+				<path d="M12 12L4 7M12 12L20 7M12 12V22" stroke="currentColor" stroke-width="2"/>
 			</svg>
-			<span class="font-sans font-semibold">parallel</span>
+			<span class="font-sans font-semibold">Wren</span>
 		</a>
 
 		<!-- Links -->
 		<div class="hidden md:flex items-center gap-8 font-mono text-xs text-muted">
-			<a href="#" class="hover:text-foreground transition-colors">About</a>
-			<a href="#" class="hover:text-foreground transition-colors">Search</a>
+			<a href="#" class="hover:text-foreground transition-colors">Product</a>
+			<a href="#" class="hover:text-foreground transition-colors">Use Cases</a>
 			<a href="#" class="hover:text-foreground transition-colors">Pricing</a>
-			<a href="#" class="hover:text-foreground transition-colors">Blog</a>
+			<a href="#" class="hover:text-foreground transition-colors">About</a>
 			<a href="#" class="hover:text-foreground transition-colors">Docs</a>
 		</div>
 
 		<!-- CTA -->
 		<div class="flex items-center gap-4">
 			<a href="#" class="hidden md:flex items-center gap-2 border border-border px-3 py-1.5 text-xs font-mono hover:bg-primary-50 transition-colors uppercase">
-				Start Building
+				Get Started
 				<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M1 11L11 1M11 1H3M11 1V9" stroke="currentColor" stroke-width="1.5"/>
 				</svg>
